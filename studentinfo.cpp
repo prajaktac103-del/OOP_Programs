@@ -1,10 +1,11 @@
 #include<iostream>
 using namespace std;
 class student{
-	public:
+	private:
 		int rn;
 		string na;
-		string mn;
+		long long mn;
+public:
 	void accept(){
 		cout<<"\nEnter your Roll No:";
 		cin>>rn;
@@ -25,4 +26,5 @@ int main(){
 	
 	s1.accept();
 	s1.display();
+	return 0;
 }
